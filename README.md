@@ -58,6 +58,29 @@
     <b>0,00076.jpg,AM General Hummer SUV 200,[AM General Hummer SUV 200,Geo Metro Convertible 199,Lamborghini Reventon Coupe 200,BMW 6 Series Convertible 200,Mazda Tribute SUV 201],[AM General Hummer SUV 200]</b><br>
    </li>
    <li>
+     <b>output_top1_with_confidense_score.txt</b> contains the output of test.py source code. Each line of the file characterized as follows (seperated by comma):
+     <br/>
+    <ul>
+      <li>
+        # of test cases (starting from 0)
+      </li>
+      <li>
+        input image name. For example: 00076.jpg
+      </li>
+      <li>
+        ground truth image label. For example: AM General Hummer SUV 200
+      </li>
+      <li>
+        top one prediction. For example: [AM General Hummer SUV 200]
+      </li>
+      <li>
+        the confidence score of top one prediction. For example: 0.996206
+      </li>
+    </ul>
+    The following line will show the first line of output_top1_with_confidense_score.txt file<br/>
+    <b>0,00076.jpg,AM General Hummer SUV 200,0.996206</b><br>
+   </li>
+   <li>
       <b>cars.txt</b> the file contains enumerated class names
   </li>
 </ul>
