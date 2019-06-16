@@ -1,6 +1,6 @@
 <ul>
   <ul>
-    This repository contains the source files for training and testing the Vehicle Make, Model and Year Prediction Task (https://www.aiforsea.com/computer-vision). As a backend CNN framework we have used kereas with theano.
+    This repository contains the source files for training and testing the Vehicle Make, Model and Year Prediction Task (https://www.aiforsea.com/computer-vision). As a backend CNN framework we have used kereas with theano. The train and test file can be downloaded from the following link: https://drive.google.com/open?id=1h3zx7i8IYNFY6BZp717Ljq8FwYtW9THN
   </ul>
   <li>
     <b>train.py</b> - contains the code for fine-tuing the Inception v3 CNN taken from https://github.com/fchollet/deep-learning-models. 
