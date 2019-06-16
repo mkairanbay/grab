@@ -26,7 +26,7 @@
     <b>inception_v3_cars_main.py</b> souce file is also used for testing, however, in comparison to test.py file, <b>it reads only one image file and produces top-5 most probable prediction results.</b> 
     <br/>
     The test sample with respective top-5 prediction result is illustrated in the following figure: 
-    <center><img src="https://github.com/mkairanbay/grab/blob/master/top5.png" /></center>
+    <p align="center"><img src="https://github.com/mkairanbay/grab/blob/master/top5.png" /></p>
   </li>
   <li>
     <b>accuracy.txt</b> file contains the top-5, top-3 and top-1 accuracies:<br/>
@@ -68,10 +68,10 @@ The web-service can be found by following the url: http://lattaes.herokuapp.com/
 <center><img src="https://github.com/mkairanbay/grab/blob/master/cars_main_page.PNG" /></center>
 <br/>
 User have to upload or take a photo of vehicle and press to "Predict" button. <br/>
-<center><img src="https://github.com/mkairanbay/grab/blob/master/cars_second_page.PNG" /></center> <br>
+<p align="center"><img src="https://github.com/mkairanbay/grab/blob/master/cars_second_page.PNG" /></p> <br>
 It will upload the photo to the server and starts to predict the vehicle's make, model and year.  <br/>
-<center><img src="https://github.com/mkairanbay/grab/blob/master/cars_loading_page.PNG" /> </center> <br/>
+<p align="center"><img src="https://github.com/mkairanbay/grab/blob/master/cars_loading_page.PNG" /> </p> <br/>
 In the result it will show top-5 predicted classes with confidense scores. 
 <br/>
-<center><img src="https://github.com/mkairanbay/grab/blob/master/cars_result_page.PNG" /></center>
+<p align="center"><img src="https://github.com/mkairanbay/grab/blob/master/cars_result_page.PNG" /></p>
 However, the performance of the web-service is not good. Because, the CNN is trained with Theano, however, the web-service is working with Tensorflow. The loading the Theano model to heroku takes very long time (more than 120 seconds), which restricts to the limitations of heroku. Therefore, we have decided to use tensorflow as a backend. However, it influenced to the performance of prediction in a bad way. In a feature, we have to solve this issue (train with tensorflow or convert the weights from theano to tensorflow) and upload proper weights.  
