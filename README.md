@@ -23,7 +23,7 @@
     For each test samples we have predicted top-5, top-3 and top-1 most probable vehicle classes (each vehicle class contains vehicle make, model and year). The <b>top-5, top-3 and top-1 accuracies</b> can be found in accuracy.txt file. 
   </li>
   <li>
-    <b>inception_v3_cars_main.py</b> souce file is also used for testing, however, in comparison to test.py file, <b>it reads only one image file and produces top-5 most probable prediction results.</b> 
+    <b>inception_v3_cars_main.py</b> souce file is also used for testing, however, in comparison to test.py file, <b>it reads only one image file and produces top-5 most probable prediction results with confidence scores.</b> 
     <br/>
     The test sample with respective top-5 prediction result is illustrated in the following figure: 
     <p align="center"><img src="https://github.com/mkairanbay/grab/blob/master/top5.png" /></p>
