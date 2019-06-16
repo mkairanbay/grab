@@ -65,7 +65,7 @@
 <br><br><br>
 Using the result of this trained model, we have attempted to build web-service for smartphones which will predict the vehicle's make, model and year. 
 The web-service can be found by following the url: http://lattaes.herokuapp.com/. <br>
-<center><img src="https://github.com/mkairanbay/grab/blob/master/cars_main_page.PNG" /></center>
+<p align="center"><img src="https://github.com/mkairanbay/grab/blob/master/cars_main_page.PNG" /></p>
 <br/>
 User have to upload or take a photo of vehicle and press to "Predict" button. <br/>
 <p align="center"><img src="https://github.com/mkairanbay/grab/blob/master/cars_second_page.PNG" /></p> <br>
