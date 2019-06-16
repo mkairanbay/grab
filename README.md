@@ -96,5 +96,5 @@ It will upload the photo to the server and starts to predict the vehicle's make,
 <p align="center"><img src="https://github.com/mkairanbay/grab/blob/master/cars_loading_page.PNG" /> </p> <br/>
 In the result it will show top-5 predicted classes with confidense scores. 
 <br/>
-<p align="center"><img src="https://github.com/mkairanbay/grab/blob/master/cars_result_page.PNG" /></p>
+<p align="center"><img src="https://github.com/mkairanbay/grab/blob/master/cars_result_page_with_confidence_score.PNG" /></p>
 However, the performance of the web-service is not good. Because, the CNN is trained with Theano, however, the web-service is working with Tensorflow. The loading the Theano model to heroku takes very long time (more than 120 seconds), which restricts to the limitations of heroku. Therefore, we have decided to use tensorflow as a backend. However, it influenced to the performance of prediction in a bad way. In a feature, we have to solve this issue (train with tensorflow or convert the weights from theano to tensorflow) and upload proper weights.  
